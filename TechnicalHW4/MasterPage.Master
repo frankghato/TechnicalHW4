@@ -1,0 +1,22 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="TechnicalHW4.MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <h1>Pet Med System</h1>
+            <a href="Default.aspx">Home</a>
+            <a href="PlaceOrder.aspx">Place Order</a>
+            <a href="OrderList.aspx">Order List</a>
+            <a href="MedicationRecords.aspx">Medication Records</a>
+        </div>
+    </form>
+</body>
+</html>
