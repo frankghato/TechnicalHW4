@@ -4,23 +4,25 @@
 
 <html>
 <head runat="server">
-    <title></title>
+    <title>Pet Met System</title>
     <asp:ContentPlaceHolder ID="head" runat="server">
         <LINK REL=StyleSheet HREF="styles.css" TYPE="text/css" >
     </asp:ContentPlaceHolder>
 </head>
 <body>
     <form id="form1" runat="server">
-        <div>
-            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-            </asp:ContentPlaceHolder>
-            <h1>Pet Med System</h1>
+                    <h1>Pet Med System</h1>
             <div class="nav">
                 <a href="Default.aspx">Home</a>
                 <a href="PlaceOrder.aspx">Place Order</a>
                 <a href="OrderList.aspx">Order List</a>
                 <a href="MedicationRecords.aspx">Medication Records</a>
             </div>
+        
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+
         </div>
     </form>
 </body>
