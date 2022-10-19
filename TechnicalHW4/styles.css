@@ -1,6 +1,6 @@
 ﻿body {
-    background:gray;
-    color:black;
+    background: #6c50c7;
+    color: #e7dfdd;
 }
 
 .nav a {
@@ -19,3 +19,28 @@ h1
 {
     float:left;
 }
+
+.defaultPageList {
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.list-group {
+    list-style: none;
+}
+
+.list-group-item{
+    list-style: none;
+    padding:20px;
+}
+
+    .list-group-item a {
+        float: none;
+        text-decoration: underline;
+        text-transform: uppercase;
+        font-size: 15px;
+        list-style: none;
+        color: #e7dfdd;
+    }

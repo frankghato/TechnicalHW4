@@ -3,4 +3,13 @@
     <LINK REL=StyleSheet HREF="styles.css" TYPE="text/css" >
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    <br />    
+    <div class="defaultPageList">
+            <ul class="list-group" id="defaultList">
+            <li class="list-group-item"><a href="PlaceOrder.aspx">Place Order</a></li>
+            <li class="list-group-item"><a href="OrderList.aspx">Order List</a></li>
+            <li class="list-group-item"><a href="MedicationRecords.aspx">Medication Records</a></li>
+        </ul>
+    </div>
 </asp:Content>
+
