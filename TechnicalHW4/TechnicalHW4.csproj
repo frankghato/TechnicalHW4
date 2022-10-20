@@ -68,6 +68,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Default.aspx" />
+    <Content Include="MedicationRecords.aspx" />
     <Content Include="OrderList.aspx" />
     <Content Include="PlaceOrder.aspx" />
     <Content Include="styles.css" />
@@ -87,6 +88,13 @@
     </Compile>
     <Compile Include="MasterPage.Master.designer.cs">
       <DependentUpon>MasterPage.Master</DependentUpon>
+    </Compile>
+    <Compile Include="MedicationRecords.aspx.cs">
+      <DependentUpon>MedicationRecords.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MedicationRecords.aspx.designer.cs">
+      <DependentUpon>MedicationRecords.aspx</DependentUpon>
     </Compile>
     <Compile Include="OrderList.aspx.cs">
       <DependentUpon>OrderList.aspx</DependentUpon>
