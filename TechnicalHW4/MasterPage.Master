@@ -11,19 +11,28 @@
 </head>
 <body>
     <form id="form1" runat="server">
-                    <h1>Pet Med System</h1>
             <div class="nav">
+                <h1>Pet Med System</h1>
                 <a href="Default.aspx">Home</a>
                 <a href="PlaceOrder.aspx">Place Order</a>
                 <a href="OrderList.aspx">Order List</a>
                 <a href="MedicationRecords.aspx">Medication Records</a>
             </div>
-        
+        <br />
+            
         <div>
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>
 
         </div>
+
+        <div>
+            <footer style="background:#7a7d7b; bottom:0px; width:99%; position:absolute;">
+                <p style="padding-left:10px;">Pet Med System</p>
+                <a style="padding-left:10px;">Contact Us</a>
+            </footer>
+        </div>
+
     </form>
 </body>
 </html>

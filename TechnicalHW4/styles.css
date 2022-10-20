@@ -44,3 +44,18 @@ h1
         list-style: none;
         color: #e7dfdd;
     }
+
+.placeOrderInput {
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    padding-top: 50px;
+    padding-left:5px;
+    padding-right:5px;
+}
+
+table
+{
+    border-spacing:0;
+    border-collapse:collapse;
+}
